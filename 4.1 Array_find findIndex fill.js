@@ -14,3 +14,5 @@ console.log(result)
 const indexResult = friends.findIndex(friend => friend.includes("@gmail.com"));
 
 console.log(indexResult)
+
+// 3.
