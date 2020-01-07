@@ -33,4 +33,5 @@ const cleaned = email.map((email, index) => ({
   username: email.split("@")[0],
   index: index
 }));
+console.log(cleaned);
 console.table(cleaned);

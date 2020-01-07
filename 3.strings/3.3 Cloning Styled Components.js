@@ -19,5 +19,4 @@ const subtitle = styled("span")`
 
 title.innerText = "We just cloned;";
 subtitle.innerText = "Styled Components";
-
 document.body.append(title, subtitle);

@@ -19,7 +19,7 @@ const sun = names.map((item, index) => {
   return item + " 💥: " + index;
 });
 
-// Arrow Function 2: implicit return => 같은 줄에 뭘 적던지 간에 리턴된다.
+// Arrow Function 2: implicit return => 같은 줄에 뭘 적던지 간에 리턴된다. (같은 줄에만 적는다면!!)
 //=> 중괄호를 주가하면 implicit return 속성은 사라진다.
 const sun2 = names.map(item => item + " 💥");
 
